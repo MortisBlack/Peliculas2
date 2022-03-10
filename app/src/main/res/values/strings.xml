@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Peliculas</string>
+
+    <string name="akira_name">Akira</string>
+    <string name="dollars_name">For a Few Dollars More</string>
+    <string name="drive_name">Drive</string>
+    <string name="madmax_name">Mad Max</string>
+    <string name="orange_name">Clockwork Orange</string>
+
+    <string name="akira_year">1998</string>
+    <string name="dollars_year">1965</string>
+    <string name="drive_year">2012</string>
+    <string name="madmax_year">1979</string>
+    <string name="orange_year">1971</string>
+
+    <string name="akira_description">Neo-Tokio, año 2019. Tras un extraño accidente, el joven Tetsuo es sometido a experimentos secretos para controlar la mente.</string>
+    <string name="dollars_description">Dos cazarrecompensas persiguen al líder de una banda de forajidos que está aterrorizando la zona del suroeste. En un principio los hombres se ven como rivales, pero acabarán colaborando para dar caza a este infame criminal.</string>
+    <string name="madmax_description">Un policía de carreteras vive entre el trabajo y una tranquila vida familiar, con su esposa y su bebé. Hasta que una pandilla de motorizados asesina a su familia. Desde ese momento, el policía vivirá para la venganza.</string>
+    <string name="orange_description">Alex es un joven muy agresivo que tiene dos pasiones: la violencia desaforada y Beethoven. Es el jefe de la banda de los drugos, que dan rienda suelta a sus instintos más salvajes aterrorizando a la población.</string>
+
+    <string name="akira_duration">2h 4m</string>
+    <string name="dollars_duration">2h 12m</string>
+    <string name="drive_duration">1h 40m</string>
+    <string name="madmax_duration">1h 33m</string>
+    <string name="orange_duration">2h 16m</string>
+</resources>
