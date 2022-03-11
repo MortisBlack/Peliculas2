@@ -1,6 +1,7 @@
 package urrego.jesus.peliculas
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -51,6 +52,19 @@ class AdaptadorPeliculas: BaseAdapter {
 
         iv_img.setImageResource(pelicula.img)
         tv_nombre.setText(pelicula.name)
+
+        vista.setOnClickListener {
+            // variable para crear una nueva vista, ya la veremos mas adelante
+            val intent: Intent = Intent(context, PeliculaActivity::class.java)
+
+            intent.putExtra("img", pelicula.img)
+            intent.putExtra("name", pelicula.name)
+            intent.putExtra("year", pelicula.year)
+            intent.putExtra("duration", pelicula.duration)
+            intent.putExtra("description", pelicula.description)
+
+            context.startActivity(intent)
+        }
 
         return vista
     }

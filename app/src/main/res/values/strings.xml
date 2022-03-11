@@ -23,4 +23,15 @@
     <string name="drive_duration">1h 40m</string>
     <string name="madmax_duration">1h 33m</string>
     <string name="orange_duration">2h 16m</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Jesús Urrego</string>
+    <string name="nav_header_subtitle">jesus@correo.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_movies">Peliculas</string>
+    <string name="menu_series">Series</string>
+    <string name="menu_favorites">Favoritos</string>
 </resources>
