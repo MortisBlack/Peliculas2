@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Peliculas</string>
 
+    // peliculas
     <string name="akira_name">Akira</string>
     <string name="dollars_name">For a Few Dollars More</string>
     <string name="drive_name">Drive</string>
@@ -23,6 +24,12 @@
     <string name="drive_duration">1h 40m</string>
     <string name="madmax_duration">1h 33m</string>
     <string name="orange_duration">2h 16m</string>
+
+    // series
+    <string name="office_name">The Office</string>
+
+
+    // otros
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
