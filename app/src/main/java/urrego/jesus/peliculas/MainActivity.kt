@@ -7,20 +7,29 @@ import android.widget.ListView
 class MainActivity : AppCompatActivity() {
     // Lista de peliculas completamente vacia
     var peliculas: ArrayList<Pelicula> = ArrayList()
+    var series: ArrayList<Serie> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+    /*
         llenar_peliculas()
+        llenar_series()
 
-        var adaptador = AdaptadorPeliculas(this, peliculas)
+        var adaptador_peliculas = AdaptadorPeliculas(this, peliculas)
+        var adaptador_series = AdaptadorSeries(this, series)
 
-        var listview: ListView = findViewById(R.id.listview)
+        var listview_peliculas: ListView = findViewById(R.id.listview)
+        var listview_series: ListView = findViewById(R.id.listview)
 
-        listview.adapter = adaptador
+        listview_peliculas.adapter = adaptador_peliculas
+        listview_series.adapter = adaptador_series
+
+         */
     }
 
+    /*
     fun llenar_peliculas() {
 
         val akira = Pelicula(
@@ -73,4 +82,59 @@ class MainActivity : AppCompatActivity() {
         )
         peliculas.add(orange)
     }
+
+    fun llenar_series() {
+
+        val office = Serie(
+            1,
+            getString(R.string.office_name),
+            getString(R.string.office_year),
+            getString(R.string.office_description),
+            getString(R.string.office_seasons),
+            R.drawable.office
+        )
+        series.add(office)
+
+        val bigbang = Serie(
+            2,
+            getString(R.string.bigbang_name),
+            getString(R.string.bigbang_year),
+            getString(R.string.bigbang_description),
+            getString(R.string.bigbang_seasons),
+            R.drawable.bigbang
+        )
+        series.add(bigbang)
+
+        val simpsons = Serie(
+            3,
+            getString(R.string.simpsons_name),
+            getString(R.string.simpsons_year),
+            getString(R.string.simpsons_description),
+            getString(R.string.simpsons_seasons),
+            R.drawable.simpsons
+        )
+        series.add(simpsons)
+
+        val trigun = Serie(
+            4,
+            getString(R.string.trigun_name),
+            getString(R.string.trigun_year),
+            getString(R.string.trigun_description),
+            getString(R.string.trigun_seasons),
+            R.drawable.trigun
+        )
+        series.add(trigun)
+
+        val vikings = Serie(
+            5,
+            getString(R.string.vikings_name),
+            getString(R.string.vikings_year),
+            getString(R.string.vikings_description),
+            getString(R.string.vikings_seasons),
+            R.drawable.vkings
+        )
+        series.add(vikings)
+    }
+
+     */
 }

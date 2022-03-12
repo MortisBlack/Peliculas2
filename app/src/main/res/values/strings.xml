@@ -1,24 +1,28 @@
 <resources>
     <string name="app_name">Peliculas</string>
 
-    // peliculas
+    // movies
+        // names
     <string name="akira_name">Akira</string>
     <string name="dollars_name">For a Few Dollars More</string>
     <string name="drive_name">Drive</string>
     <string name="madmax_name">Mad Max</string>
     <string name="orange_name">Clockwork Orange</string>
 
+        // years
     <string name="akira_year">1998</string>
     <string name="dollars_year">1965</string>
     <string name="drive_year">2012</string>
     <string name="madmax_year">1979</string>
     <string name="orange_year">1971</string>
 
+        // descriptions
     <string name="akira_description">Neo-Tokio, año 2019. Tras un extraño accidente, el joven Tetsuo es sometido a experimentos secretos para controlar la mente.</string>
     <string name="dollars_description">Dos cazarrecompensas persiguen al líder de una banda de forajidos que está aterrorizando la zona del suroeste. En un principio los hombres se ven como rivales, pero acabarán colaborando para dar caza a este infame criminal.</string>
     <string name="madmax_description">Un policía de carreteras vive entre el trabajo y una tranquila vida familiar, con su esposa y su bebé. Hasta que una pandilla de motorizados asesina a su familia. Desde ese momento, el policía vivirá para la venganza.</string>
     <string name="orange_description">Alex es un joven muy agresivo que tiene dos pasiones: la violencia desaforada y Beethoven. Es el jefe de la banda de los drugos, que dan rienda suelta a sus instintos más salvajes aterrorizando a la población.</string>
 
+        // durations
     <string name="akira_duration">2h 4m</string>
     <string name="dollars_duration">2h 12m</string>
     <string name="drive_duration">1h 40m</string>
@@ -26,10 +30,35 @@
     <string name="orange_duration">2h 16m</string>
 
     // series
+        // names
     <string name="office_name">The Office</string>
+    <string name="bigbang_name">The Big Bang Theory</string>
+    <string name="simpsons_name">The Simpsons</string>
+    <string name="trigun_name">Trigun</string>
+    <string name="vikings_name">Vikings</string>
 
+        // years
+    <string name="office_year">2005</string>
+    <string name="bigbang_year">2007</string>
+    <string name="simpsons_year">1989</string>
+    <string name="trigun_year">1998</string>
+    <string name="vikings_year">2013</string>
 
-    // otros
+        // descriptions
+    <string name="office_description">The Office sigue el día a día en la vida de unos excéntricos trabajadores de la empresa Dunder Mifflin, de forma fresca y divertida, y con apariencia de pseudo-documental. The Office parodia la cultura americana a través de las vivencias de sus protagonistas.</string>
+    <string name="bigbang_description">Leonard y Sheldon son dos cerebros privilegiados que pueden ser capaces de decirle a todo el mundo más de lo que quiere saber sobre la física cuántica, pero que no tienen ni la menor idea de cómo relacionarse socialmente, sobre todo cuando se trata de mujeres. Sin embargo, la llegada de una nueva vecina llamada Penny al edificio altera la vida sentimental de Leonard y las obsesiones de Sheldon.</string>
+    <string name="simpsons_description">La comedia de dibujos animados se centra en una familia que vive en la ciudad de Springfield. La cabeza de la familia Simpson es Homero, quien no es un hombre de familia típico, obrero de una planta nuclear, él hace lo mejor para poder liderar a su familia, pero frecuentemente se da cuenta que son ellos los que lo mandan. La familia se compone de la matriarca amorosa, Marge, de cabello azul, el hijo agitador Bart, la hija aplicada Lisa y la bebé Maggie.</string>
+    <string name="trigun_description">Trigun narra la historia de Vash Estampida, también conocido como El Tifón humanoide, y de las dos empleadas de la Sociedad de Seguros Bernarderi: Meryl Stryfe y Milly Thompson, que tienen la misión de seguir y minimizar los efectos del caos que persiguen a Vash a donde quiera que este vaya.</string>
+    <string name="vikings_description">El vikingo Ragnar Lothbrok es un joven agricultor y hombre de familia que se siente frustrado por las políticas de Earl Haraldson, el conde del lugar que envía a sus invasores vikingos al este de los países bálticos y Rusia, cuyos residentes son pobres como los escandinavos. Ragnar prefiere ir al oeste, al otro lado del océano, para descubrir nuevas civilizaciones. Con la ayuda de su amigo Floki, Ragnar construye una flota de barcos que lo ayudará a alcanzar el mundo occidental.</string>
+
+        // seasons
+    <string name="office_seasons">Temporadas: 9</string>
+    <string name="bigbang_seasons">Temporadas: 12</string>
+    <string name="simpsons_seasons">Temporadas: 33</string>
+    <string name="trigun_seasons">Temporadas: 1</string>
+    <string name="vikings_seasons">Temporadas: 9</string>
+
+    // others
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
