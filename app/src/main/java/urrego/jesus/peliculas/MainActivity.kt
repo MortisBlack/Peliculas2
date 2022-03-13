@@ -6,7 +6,7 @@ import android.widget.ListView
 
 class MainActivity : AppCompatActivity() {
     // Lista de peliculas completamente vacia
-    var peliculas: ArrayList<Pelicula> = ArrayList()
+    //var peliculas: ArrayList<Pelicula> = ArrayList()
     var series: ArrayList<Serie> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {

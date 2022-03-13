@@ -43,10 +43,10 @@ class AdaptadorSeries: BaseAdapter {
          */
 
         val inflador = LayoutInflater.from(context)
-        val vista = inflador.inflate(R.layout.activity_serie, null)
+        val vista = inflador.inflate(R.layout.serie_view, null)
 
-        var iv_img: ImageView = vista.findViewById(R.id.img_view)
-        var tv_nombre: TextView = vista.findViewById(R.id.tv_nombre)
+        var iv_img: ImageView = vista.findViewById(R.id.img_view_serie)
+        var tv_nombre: TextView = vista.findViewById(R.id.tv_nombre_serie)
 
         var serie: Serie = series[position]
 
@@ -55,7 +55,7 @@ class AdaptadorSeries: BaseAdapter {
 
         vista.setOnClickListener {
             // variable para crear una nueva vista, ya la veremos mas adelante
-            val intent: Intent = Intent(context, PeliculaActivity::class.java)
+            val intent: Intent = Intent(context, SerieActivity::class.java)
 
             intent.putExtra("img", serie.img)
             intent.putExtra("name", serie.name)

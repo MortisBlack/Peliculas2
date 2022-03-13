@@ -39,7 +39,6 @@ class GalleryFragment : Fragment() {
             textView.text = it
         })
         */
-
         llenar_series()
 
         var adaptador = AdaptadorSeries(root.context, series)

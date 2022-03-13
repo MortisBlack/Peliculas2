@@ -24,6 +24,9 @@
             android:name=".PeliculaActivity"
             android:exported="false" />
         <activity
+            android:name=".SerieActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
